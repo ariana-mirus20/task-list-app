@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import App from './components/App'
+
 
 ReactDOM.render(
-  <div>
-    Reminder Pro Task List App
-  </div>,
+ <App />,
   document.getElementById('root')
 
 )
